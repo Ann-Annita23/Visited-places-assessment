@@ -1,4 +1,6 @@
 # Places Visited Project
+
+## Author Name
 Maina Ann
 
 ## Project Overview
