@@ -1,8 +1,5 @@
 # Places Visited Project
-
-**Author**
-
-
+Maina Ann
 
 ## Project Overview
 
