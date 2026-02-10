@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOURING AMAZING PLACES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Destinations Explored</header>
+    <h1 id="intro">Adventure and Memories</h1>
+    <p>Hello, Welcome to your Personal Travel Tracker. Record your journeys and revisit your favorite memories.</p>
+<br>
+<h4>FORM</h4>
+<form id="new-places">
+    <label for="location">Location</label>
+    <input type="text" id="new-location" placeholder="Location" required>
+    <label for="landmarks">Landmark</label>
+    <input type="text" id="new-landmark" placeholder="Landmark" required>
+    <label for="time">time</label>
+    <input type="text" id="new-time" placeholder="time of the year" required>
+    <label for="notes">Notes</label>
+    <input type="text" id="new-note" placeholder="note">
+        <button onclick="recordDestination(event)">Record Destination</button>
+</form>
+<div class="display-area">
+    <h2>My Destination</h2>
+    <ul id="place-list"></ul>
+        <div id="place-details" class="hidden">
+        <h3>Details</h3>
+        <p>Location:<span id="detail-location"></span></p>
+        <p>Landmark: <span id="detail-landmark"></span></p>
+        <p>Time <span id="detail-time"></span></p>
+        <p>Notes:<span id="detail-note"><span></p> 
+            
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
