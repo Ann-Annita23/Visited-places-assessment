@@ -1,0 +1,52 @@
+#intro{
+    font-style: italic;
+    font-size: x-large;
+    text-align: left;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url(Images/Cuteimage2.jpeg);
+    background-size: cover;
+}
+header{
+    text-align: right;
+    color: brown;
+    font-style: italic;
+}
+
+#new-places{
+    background: white;
+    font-weight: bold;
+    padding: 25px 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: crimson;
+    text-decoration: underline;
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: black;
+}
+
+h3,
+h4{
+    text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
